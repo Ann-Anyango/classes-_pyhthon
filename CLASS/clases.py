@@ -27,5 +27,8 @@ print(f"Student:,{20} years old,   year of birth{2003}")
 # Account
 # Each class should have one class attribute and three instance variables.
 
-
+def __int__ (Self,first_name,last_name,age,country):
+    Self.first_name=first_name
+    Self.last_name=last_name
+    
    
